@@ -78,8 +78,8 @@ while type:
             break
     else:
         print('в имени должны быть только буквы')
-        for i in range(len(mname)):
-            if str.isalpha(mname[i]):
+        for i in mname:
+            if str.isalpha(str(i)):
                 pass
             else:
                 print('ошибка ввода, это не буква алфавита', (list(mname[i])))
